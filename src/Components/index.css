@@ -1,0 +1,1197 @@
+*
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body
+{
+    background-color: whitesmoke;
+}
+.Home::-webkit-scrollbar
+{
+    display: none;
+}
+.navbar
+{
+    background-color: transparent;
+}
+
+.nav-item{
+    padding-left: 40px;
+    margin: 5px;
+}
+.nav-link
+{
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    padding: 0px;
+}
+.active-nav-border
+{
+    border-bottom: 5px solid orange;
+    border-top: 5px solid orange;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+.nav-link:hover
+{
+    color: orange;
+    border-bottom: 5px solid orange;
+    border-top: 5px solid orange;
+}
+.nav-link:active
+{
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+.regis-N-Login
+{
+    padding: 10px;
+    margin: 5px;
+    margin-right: 30px;
+}
+#Home
+{
+    flex-wrap: wrap;
+}
+.Home-headingBox
+{
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+    transition: all 0.5s ease;
+    box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    animation: pop 0.5s ease;
+    background: transparent;
+}
+.Home-headingBox h1
+{
+    font-size: 5em;
+}
+.Home-headingBox h1,h2,h3,p
+{
+    color: white;
+    margin-left: 10px;
+    padding: 20px;
+}
+.Home-body-Up
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.latest-Updates
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    border-radius: 10px;    
+    margin-top: 2%;
+    margin-right: 2%;
+    transition: all 0.5s ease;
+    box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    animation: pop 0.5s ease;
+    transition: all 0.4s ease;
+    background: transparent;
+}
+.latest-Updates:hover
+{
+    transform: scale(1.06);
+}
+.latest-Updates h1
+{
+    color: white;
+    padding-left: 30%;
+}
+.Home-headingBox:hover
+{
+    transform: scale(1.06);
+}
+.Home-Body-Slider
+{
+    margin-top: 50px;
+}
+.custom-carousel {
+    width: 89%; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    overflow:hidden; /* Hide any overflow content */
+    margin-left: 5%;
+    border-radius: 10px;
+  }
+.custom-carousel img {
+    width: 100%;
+    height: auto;
+  }
+.Home-Slider
+{
+    height: 100px;
+    width: 100px;
+}
+.HomeCardSection
+{
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    transition: all 0.5s ease;
+    box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+}
+.Home-homeHeadings h1,h2,h3
+{
+    background: linear-gradient(45deg,#ff0000,#ffff00,#ff00f3,#66ff00,#16bffd,#a80077);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px transparent;
+    animation: textAnimation 10s linear infinite;
+}
+.Home-downdescription p
+{
+    background: linear-gradient(45deg,#ff0000,#ffff00,#ff00f3,#66ff00,#16bffd,#a80077);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px transparent;
+    animation: textAnimation 10s linear infinite;
+}
+.gradient-colors
+{
+    background: linear-gradient(45deg,#ff0000,#ffff00,#ff00f3,#66ff00,#16bffd,#a80077);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px transparent;
+    animation: textAnimation 10s linear infinite;
+}
+@keyframes textAnimation{
+    0%{background-position: 0%;}
+    100%{background-position: 400%;}
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+      background-color: orange; 
+      border-radius: 50%;
+}
+.ProjectCard
+{
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    width: fit-content;
+    box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.3);
+    transition: all 1s linear;
+}
+.ProjectCard img
+{
+    width: 300px;
+}
+.ProjectCard:hover
+{
+    transform: scale(1.06);
+}
+.carousel-caption {
+    position: absolute;
+    top: 65%; /* Adjust this value to move the caption vertically */
+    left: 50%; /* Adjust this value to move the caption horizontally */
+    transform: translate(-50%, -50%); /* Center the caption */
+    text-align: center;
+}
+.carousal-text
+{
+    backdrop-filter: blur(10px);
+    color: orange;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+}
+.project-card-hidden
+{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+.project-card-show
+{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.about-us-desc {
+    display: flex;
+    flex-direction:row;
+    height: fit-content;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 2%;
+    box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    justify-content: center;
+}
+.about-us-goal
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+}
+.about-us-goal img
+{
+    padding: 50px;
+    border-radius: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.contactUsDivPart label
+{
+    font-size: 2rem;
+    color: orange;
+}
+.contactUsDivPart input
+{
+    width: 50%;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+.contactUsDivPart textarea
+{
+    width: 80%;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+.contactUsDiv h1
+{
+    text-align: center;
+}
+.down-to-up-hidden
+{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 1s linear;
+}
+.down-to-up-show
+{   
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition: all 1s linear;
+}
+.left-to-right-hidden
+{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+.left-to-right-show
+{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s linear;
+}
+.boxShadow
+{
+    box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.1);
+}
+.Courses .cardArea
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0,0,0,0.5);
+}
+.courseCard
+{
+    border: 2px solid gray;
+    width: 330px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fceed1;
+}
+.courseCard-animation-hidden
+{
+    opacity: 0;
+    transform: translateY(100%);
+    filter: blur(5px);
+}
+.courseCard-animation-show
+{
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+    transition: all 0.5s linear;
+}
+.OurTeamBox
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+.OurTeamBoxContent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.OurTeamBoxImage
+{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.OurTeamBox img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+.OurTeamBoxText
+{
+    width: 50%;
+    height: fit-content;
+    border-radius: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+
+@media (min-width: 320px) and (max-width: 321px) 
+{
+    .Home-body-Up
+    {
+        font-size: 10px;
+        margin-right: 2%;
+    }
+    .latest-Updates
+    {
+        margin-right: 0%;
+    }
+    .latest-Updates-desc span
+    {
+        font-size:20px;
+    }
+    .Home-Body-Slider
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:343px) and (max-width:345px)
+{
+    .Home-headingBox
+    {
+        width: 359px;
+    }
+    .latest-Updates
+    {
+        margin-left: 2%;
+        /* padding: 6%; */
+        padding-left: 4%;
+        width: 100%;
+        /* position: relative; */
+        left: 2%;
+        top: 2%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: -6%;
+    }
+    .ProjectCard
+    {
+        margin: 0px 0px 20px 10px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+    }
+    .about-us-desc 
+    {
+        overflow: auto;
+    }
+    .Home-Body-Slider
+    {
+        height: 250px;
+    }
+    .about-desc-text
+    {
+        height: -100px;
+    }
+    .carousel-control-prev
+    {
+        display: none;
+    }
+    .carousel-control-next
+    {
+        display: none;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .HomeCardSection
+    {
+        width: 100%;
+        position: relative;
+        margin-left: 12px;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxText h3
+    {
+        margin-left: -2%;
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:359px) and (max-width:361px) 
+{
+    .Home-headingBox
+    {
+        width: 359px;
+    }
+    .latest-Updates
+    {
+        margin-left: 3%;
+        margin-right: 0%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: -6%;
+    }
+    .HomeCardSection h1
+    {
+        margin-left: -8%;
+    }
+    .HomeCardSection
+    {
+        margin-left: 5%;
+    }
+    .ProjectCard
+    {
+        margin: 0px 0px 20px 7px;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .Home-Body-Slider img
+    {
+        border-radius: 10px;
+    }
+    .carousel-control-prev
+    {
+        display: none;
+    }
+    .carousel-control-next
+    {
+        display: none;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:374px) and (max-width:376px)
+{
+    .Home-headingBox
+    {
+        width: 360px;
+    }
+    .latest-Updates
+    {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: -6%;
+    }
+    .ProjectCard
+    {
+        margin: 19px;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+        height: 280px;
+        border-radius: 10px;
+    }
+    .Home-Body-Slider img
+    {
+        border-radius: 10px;
+    }
+    .carousel-control-prev
+    {
+        display: none;
+    }
+    .carousel-control-next
+    {
+        display: none;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .footerHeading
+    {
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:389px) and (max-width:391px)
+{
+    .Home-headingBox
+    {
+        width: 375px;
+    }
+    .latest-Updates
+    {
+        margin-left: 2%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: -6%;
+    }
+    .ProjectCard
+    {
+        margin: 24px;
+    }
+    .HomeCardSection h1
+    {
+        font-size: 3em;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+        height: 280px;
+        border-radius: 10px;
+    }
+    .Home-Body-Slider img
+    {
+        border-radius: 10px;
+    }
+    .carousel-control-prev
+    {
+        display: none;
+    }
+    .carousel-control-next
+    {
+        display: none;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText h3
+    {
+        margin-left: -1%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:413px) and (max-width:415px) 
+{
+    .Home-headingBox
+    {
+        width: 400px;
+    }
+    .latest-Updates
+    {
+        margin-left: 2%;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 10px 25px;
+    }
+    .ProjectCard
+    {
+        margin: 35px;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .Home-Body-Slider img
+    {
+        border-radius: 10px;
+    }
+    .carousel-control-prev
+    {
+        display: none;
+    }
+    .carousel-control-next
+    {
+        display: none;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText h3
+    {
+        margin-left: -1%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:410px)and (max-width: 412px) 
+{
+    .Home-headingBox
+    {
+        width: 399px;
+    }
+    .ProjectCard
+    {
+        margin: 0px 0px 20px 35px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 23px;
+    }
+    .latest-Updates
+    {
+        margin-right: 1%;
+        margin-left: 2%;
+    }
+    .latest-Updates h1
+    {
+        padding-left: 25%;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .Home-Body-Slider img
+    {
+        border-radius: 10px;
+    }
+    .carousel-control-prev
+    {
+        display: none;
+    }
+    .carousel-control-next
+    {
+        display: none;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+    
+}
+@media (min-width:429px) and (max-width:431px)
+{
+    .Home-headingBox
+    {
+        width: 413px;
+    }
+    .latest-Updates
+    {
+        margin-left: 2%;
+    }
+    .ProjectCard
+    {
+        margin: 0px 0px 20px 45px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 30px;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .Home-Body-Slider img
+    {
+        border-radius: 10px;
+    }
+    .carousel-control-prev
+    {
+        display: none;
+    }
+    .carousel-control-next
+    {
+        display: none;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:539px) and (max-width:541px)
+{
+    .Home-headingBox
+    {
+        width: 100%;
+        /* word-spacing: 5px; */
+        /* font-size: 1.2em; */
+        margin-right: 2%;
+    }
+    .latest-Updates
+    {
+        margin-left: 2%;
+    }
+    .ProjectCard
+    {
+        margin: 0px 0px 15px 85px;
+    }
+    .Home-Body-Slider
+    {
+        height: 355px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 80px;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .carousel-control-prev
+    {
+        display: none;
+    }
+    .carousel-control-next
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+} 
+@media (min-width:766px) and (max-width:769px) 
+{
+    .Home-headingBox
+    {
+        width: 100%;
+        margin-right: 2%;
+    }
+    .latest-Updates
+    {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: 4%;
+    }
+    .ProjectCard
+    {
+        margin: 22px;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+        height: 500px;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:819px) and (max-width:822px) 
+{
+    .Home-headingBox
+    {
+        width: 100%;
+        word-spacing: 5px;
+        font-size: 1.2em;
+        margin-right: 2%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: 5%;
+    }
+    .latest-Updates
+    {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .ProjectCard
+    {
+        margin: 30px;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+        height: 500px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 30px;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:852px) and (max-width:854px)
+{
+    .Home-headingBox
+    {
+        width: 100%;
+        word-spacing: 5px;
+        font-size: 1.2em;
+        margin-right: 2%;
+    }
+    .latest-Updates
+    {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: 5%;
+    }
+    .ProjectCard
+    {
+        margin: 0px 0px 20px 50px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 40px;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:911px) and (max-width:913px)
+{
+    .Home-headingBox
+    {
+        width: 100%;
+        word-spacing: 5px;
+        font-size: 1.2em;
+        margin-right: 2%;
+    }
+    .latest-Updates
+    {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: 6%;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+    }
+    .carousal-text
+    {
+        position: relative;
+        top: 80%;
+    }
+    .carousal-horizontal-btn
+    {
+        display: none;
+    }
+    .ProjectCard
+    {
+        margin: 50px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 65px;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
+@media (min-width:1020px) and (max-width:1025px)
+{
+    .Home-headingBox
+    {
+        width: 100%;
+        word-spacing: 5px;
+        font-size: 1.2em;
+        margin-right: 2%;
+    }
+    .latest-Updates
+    {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: 8%;
+    }
+    .Home-Body-Slider
+    {
+        display: block;
+    }
+    .carousal-text
+    {
+        position: relative;
+        top: 80%;
+    }
+    .ProjectCard
+    {
+        margin: 50px;
+        padding: 20px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 90px;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+} 
+@media (min-width:1279px) and (max-width:1281px)
+{
+    .Home-headingBox
+    {
+        width: 100%;
+        /* word-spacing: 10px; */
+        font-size: 2em;
+        margin-right: 2%;
+    }
+    .latest-Updates
+    {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .latest-Updates h1
+    {
+        margin-left: 9%;
+    }
+    .ProjectCard
+    {
+        margin: 20px;
+        padding: 20px;
+    }
+    .courseCard
+    {
+        margin: 0px 0px 20px 50px;
+    }
+    .OurTeamBoxContent
+    {
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .OurTeamBoxImage
+    {
+        width: 100%;
+    }
+    .OurTeamBoxText
+    {
+        width: 100%;
+    }
+}
