@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IT-Services-Website/static/css/main.139e6af2.css",
+    "main.css": "/IT-Services-Website/static/css/main.f33350ad.css",
     "main.js": "/IT-Services-Website/static/js/main.bf0b9dd5.js",
     "static/media/BackImage.png": "/IT-Services-Website/static/media/BackImage.24903811dab8d7867de6.png",
     "static/media/Image1.png": "/IT-Services-Website/static/media/Image1.d35d490e937d9f2835d3.png",
@@ -10,11 +10,11 @@
     "static/media/ZeeteeOurTeam.png": "/IT-Services-Website/static/media/ZeeteeOurTeam.5ff314a7e687543d00f3.png",
     "static/media/profileImage.png": "/IT-Services-Website/static/media/profileImage.7cace3495ac6928627d5.png",
     "index.html": "/IT-Services-Website/index.html",
-    "main.139e6af2.css.map": "/IT-Services-Website/static/css/main.139e6af2.css.map",
+    "main.f33350ad.css.map": "/IT-Services-Website/static/css/main.f33350ad.css.map",
     "main.bf0b9dd5.js.map": "/IT-Services-Website/static/js/main.bf0b9dd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.139e6af2.css",
+    "static/css/main.f33350ad.css",
     "static/js/main.bf0b9dd5.js"
   ]
 }
