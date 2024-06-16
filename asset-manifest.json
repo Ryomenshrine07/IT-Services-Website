@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/IT-Services-Website/static/css/main.cf7957a8.css",
-    "main.js": "/IT-Services-Website/static/js/main.df4c93a6.js",
+    "main.css": "/IT-Services-Website/static/css/main.139e6af2.css",
+    "main.js": "/IT-Services-Website/static/js/main.bf0b9dd5.js",
+    "static/media/BackImage.png": "/IT-Services-Website/static/media/BackImage.24903811dab8d7867de6.png",
     "static/media/Image1.png": "/IT-Services-Website/static/media/Image1.d35d490e937d9f2835d3.png",
     "static/media/Image3.png": "/IT-Services-Website/static/media/Image3.26c954d9174431ebbc89.png",
     "static/media/Image2.png": "/IT-Services-Website/static/media/Image2.43da80609a75d2025262.png",
     "static/media/CardImage1.png": "/IT-Services-Website/static/media/CardImage1.a87a234c542fa4dd975b.png",
     "static/media/ZeeteeOurTeam.png": "/IT-Services-Website/static/media/ZeeteeOurTeam.5ff314a7e687543d00f3.png",
+    "static/media/profileImage.png": "/IT-Services-Website/static/media/profileImage.7cace3495ac6928627d5.png",
     "index.html": "/IT-Services-Website/index.html",
-    "main.cf7957a8.css.map": "/IT-Services-Website/static/css/main.cf7957a8.css.map",
-    "main.df4c93a6.js.map": "/IT-Services-Website/static/js/main.df4c93a6.js.map"
+    "main.139e6af2.css.map": "/IT-Services-Website/static/css/main.139e6af2.css.map",
+    "main.bf0b9dd5.js.map": "/IT-Services-Website/static/js/main.bf0b9dd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf7957a8.css",
-    "static/js/main.df4c93a6.js"
+    "static/css/main.139e6af2.css",
+    "static/js/main.bf0b9dd5.js"
   ]
 }
